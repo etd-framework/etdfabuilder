@@ -1,0 +1,17 @@
+{
+  "name": "etdfabuilder",
+  "version": "0.0.1",
+  "description": "FontAwesome custom package builder",
+  "main": "index.js",
+  "bin": {
+    "etdfabuilder": "./bin/etdfabuilder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etd-framework/etdfabuilder"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "yargs": "^11.0.0"
+  }
+}
