@@ -103,7 +103,7 @@ module.exports = function(output) {
         // On parcourt les icones demandés dans la collection
         config[key].forEach(function(icon_name) {
 
-            let var_name = 'fa' + icon_name.charAt(0).toUpperCase() + icon_name.slice(1);
+            let var_name = `fa-${icon_name}`.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
             let icon = fa[var_name];
 
             if (icon === undefined) {
