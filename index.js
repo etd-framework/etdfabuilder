@@ -112,7 +112,7 @@ module.exports = function(output) {
             }
 
             icons_vars.push(`var ${var_name} = ${JSON.stringify(icon)};`);
-            icons_obj.push(`${var_name} = ${var_name}`);
+            icons_obj.push(`${var_name}: ${var_name}`);
             icons_exports.push(`exports.${var_name} = ${var_name};`);
 
         });
