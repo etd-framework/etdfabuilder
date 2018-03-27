@@ -33,3 +33,9 @@ To choose the icons to include in your bundle, add the following to `package.j
   }
 }
 ```
+
+## CLI
+
+```bash
+etdfabuilder --output my-bundle.js
+```
