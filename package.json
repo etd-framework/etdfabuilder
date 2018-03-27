@@ -1,6 +1,6 @@
 {
   "name": "etdfabuilder",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "FontAwesome custom package builder",
   "main": "index.js",
   "bin": {
