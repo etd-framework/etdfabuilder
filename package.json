@@ -4,7 +4,7 @@
   "description": "FontAwesome custom package builder",
   "main": "index.js",
   "bin": {
-    "etdfabuilder": "./bin/etdfabuilder"
+    "etdfabuilder": "./bin/etdfabuilder.js"
   },
   "repository": {
     "type": "git",
