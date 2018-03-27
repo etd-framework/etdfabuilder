@@ -7,7 +7,7 @@ Add as dev dependencies :
 ```json
 {
   "devDependencies": {
-    "etdfabuilder": "git+ssh://git@github.com:etd-framework/etdfabuilder.git#0.0.3"
+    "etdfabuilder": "git+ssh://git@github.com:etd-framework/etdfabuilder.git#0.0.4"
   }
 }
 ```
